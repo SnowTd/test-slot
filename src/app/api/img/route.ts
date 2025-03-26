@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server'
 import sharp from 'sharp'
 
 export async function GET() {
-  const text = 'Hello, Bun!'
   const main = []
   const sixnummain = []
   for (let i = 0; i < 2; i++) {
